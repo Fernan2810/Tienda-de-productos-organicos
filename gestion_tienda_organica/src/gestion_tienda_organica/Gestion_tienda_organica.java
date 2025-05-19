@@ -6,8 +6,8 @@ public class Gestion_tienda_organica {
 
 
     public static void main(String[] args) {
-        Fruta guineo = new Fruta("Manzana", "Fruta Roja", 1.00);
-        Verdura papa = new Verdura("Zanahoria", "Raíz", 0.80);
+        Fruta guineo = new Fruta("Guineo", "Fruta Tropical", 0.25);
+        Verdura papa = new Verdura("Papa", "Tuberculo", 0.80);
 
         System.out.println(guineo);
         System.out.println("Precio de venta: $" + guineo.calcularPrecioVenta());
